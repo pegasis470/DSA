@@ -48,6 +48,7 @@ void print_tree(struct node *root){
 		printf("%d\n",temp->data);
 		temp=temp->left;
 	}
+	temp=root;
 	while (temp != NULL){
 		printf("%d\n",temp->data);
                 temp=temp->right;
